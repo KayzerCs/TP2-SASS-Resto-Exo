@@ -1,0 +1,145 @@
+@font-face {
+  font-family: "Allura";
+  src: url(../fonts/Allura-Regular.ttf);
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Light.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  text-align: center;
+  font-family: Roboto, serif;
+  background: #21201e;
+}
+
+header {
+  background: url(/assets/img/bg-slider-06.jpg) center/cover;
+  position: relative;
+  min-height: 100vh;
+  color: #eee;
+  padding: 0px 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+header .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+header nav {
+  height: 12vh;
+  display: grid;
+  grid-template-columns: 10% 82% 8%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1100px;
+  width: 100%;
+}
+header nav h1 {
+  font-family: Allura, cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 2.5rem;
+}
+header nav .part-mid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 6%;
+}
+header nav li {
+  font-family: Roboto, serif;
+  font-size: 0.7rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+header nav .part-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+header nav .part-right #icons {
+  font-size: 0.8rem;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+header nav .part-right #icons:hover {
+  font-size: 1rem;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+header .text-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 88vh;
+}
+header .text-header .title-container {
+  position: absolute;
+  top: 38%;
+}
+header .text-header h1 {
+  font-family: Allura, cursive;
+  color: rgb(166, 114, 69);
+  font-size: 2.5rem;
+  font-weight: lighter;
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+}
+header .text-header h2 {
+  font-family: Poppins, serif;
+  text-transform: uppercase;
+  font-size: 4rem;
+  letter-spacing: 3px;
+}
+header .text-header img {
+  height: 30px;
+  width: 30px;
+  margin: 2% auto;
+}
+header .text-header p {
+  letter-spacing: 5px;
+  word-spacing: 3px;
+  font-size: 0.8rem;
+}/*# sourceMappingURL=index.css.map */
