@@ -1,1 +1,77 @@
+.section2 {
+    height: 100vh;
+    margin: 3% 0;
+    background: url(/assets/img/bg-menu-01.jpg) center/cover;
 
+    h1 {
+        @include h1;
+        font-size: 2rem;
+        color: $color1;
+        font-weight: 250;
+    }
+
+    img {
+        margin: 2%;
+    }
+
+    .container-list {
+        @include childCenter;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        width: 70%;
+        position: relative;
+        color: $white;
+    }
+
+
+    .menu-container {
+        @include childCenter;
+        padding: 3%;
+    }
+
+    .list-menu {
+        background: $white;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 25% 25% 25% 25%;
+        height: 640px;
+        width: 800px;
+
+        .menu-1 {
+            @include childCenter;
+            justify-content: space-around;
+
+            img {
+                @include img;
+            }
+
+            h3 {
+                font-family: $font3;
+                font-size: 0.8rem;
+                font-weight: 800;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            span {
+                font-size: 1.2rem;
+                color: $color1;
+            }  
+        }
+
+        .menu-2 {
+            @include childCenter;
+            justify-content: space-around;
+
+            img {
+                @include img;
+            }
+        }
+    }
+
+}
