@@ -71,6 +71,165 @@
             img {
                 @include img;
             }
+
+            h3 {
+                font-family: $font3;
+                font-size: 0.8rem;
+                font-weight: 800;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            span {
+                font-size: 1.2rem;
+                color: $color1;
+            }  
+        }
+
+        .menu-3 {
+            @include childCenter;
+            justify-content: space-around;
+
+            img {
+                @include img;
+            }
+
+            h3 {
+                font-family: $font3;
+                font-size: 0.8rem;
+                font-weight: 800;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            span {
+                font-size: 1.2rem;
+                color: $color1;
+            }  
+        }
+
+        .menu-4 {
+            @include childCenter;
+            justify-content: space-around;
+
+            img {
+                @include img;
+            }
+
+            h3 {
+                font-family: $font3;
+                font-size: 0.8rem;
+                font-weight: 800;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            span {
+                font-size: 1.2rem;
+                color: $color1;
+            }  
+        }
+
+        .menu-5 {
+            @include childCenter;
+            justify-content: space-around;
+
+            img {
+                @include img;
+            }
+
+            h3 {
+                font-family: $font3;
+                font-size: 0.8rem;
+                font-weight: 800;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            span {
+                font-size: 1.2rem;
+                color: $color1;
+            }  
+        }
+
+        .menu-6 {
+            @include childCenter;
+            justify-content: space-around;
+
+            img {
+                @include img;
+            }
+
+            h3 {
+                font-family: $font3;
+                font-size: 0.8rem;
+                font-weight: 800;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            span {
+                font-size: 1.2rem;
+                color: $color1;
+            }  
+        }
+
+        .menu-7 {
+            @include childCenter;
+            justify-content: space-around;
+
+            img {
+                @include img;
+            }
+
+            h3 {
+                font-family: $font3;
+                font-size: 0.8rem;
+                font-weight: 800;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            span {
+                font-size: 1.2rem;
+                color: $color1;
+            }  
+        }
+
+        .menu-8 {
+            @include childCenter;
+            justify-content: space-around;
+
+            img {
+                @include img;
+            }
+
+            h3 {
+                font-family: $font3;
+                font-size: 0.8rem;
+                font-weight: 800;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            span {
+                font-size: 1.2rem;
+                color: $color1;
+            }  
         }
     }
 
