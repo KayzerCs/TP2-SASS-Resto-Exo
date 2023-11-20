@@ -506,4 +506,93 @@ header .text-header p {
 .section2 .list-menu .menu-8 span {
   font-size: 1.2rem;
   color: rgb(166, 114, 69);
+}
+
+.section3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60vh;
+}
+.section3 .formulaire-container {
+  height: 510px;
+  width: 1050px;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.section3 .formulaire-container .section1-formulaire {
+  background: black;
+  color: #eee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.section3 .formulaire-container .section1-formulaire h1 {
+  font-family: Allura, cursive;
+  font-size: 2rem;
+  font-weight: 200;
+  color: rgb(166, 114, 69);
+}
+.section3 .formulaire-container .section1-formulaire h2 {
+  font-family: Poppins, serif;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+.section3 .formulaire-container .section1-formulaire h3 {
+  color: rgb(166, 114, 69);
+  font-size: 1.1rem;
+}
+.section3 .formulaire-container .section1-formulaire p {
+  font-size: 0.9rem;
+}
+.section3 .formulaire-container .section2-formulaire {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background: #eee;
+}
+.section3 .formulaire-container .section2-formulaire .container-input {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+.section3 .formulaire-container .section2-formulaire input {
+  height: 40px;
+  width: 180px;
+}
+.section3 .formulaire-container .section2-formulaire button {
+  background: #21201e;
+  color: #eee;
+  border-radius: 50px;
+  border: none;
+  height: 50px;
+  width: 170px;
+  letter-spacing: 4px;
+  font-size: 0.9rem;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
 }/*# sourceMappingURL=index.css.map */
